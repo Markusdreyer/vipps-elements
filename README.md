@@ -4,4 +4,4 @@ This is only a draft for Vipps buttons in HTML. This is not the official style g
 
 ## Overview
 
-A dummysite is available at **LINK**
+A dummysite is available at https://markusdreyer.github.io/vipps-elements/
