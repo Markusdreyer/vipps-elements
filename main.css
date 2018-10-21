@@ -1,0 +1,112 @@
+@font-face {
+  font-family: SF;
+  src: url(./SF-Pro-Text-Regular.otf);
+}
+
+h1 {
+  font-family: SF;
+  color: #49367e;
+}
+
+h2 {
+  font-family: SF;
+  color: grey;
+  font-size: 12px;
+}
+
+.buttons-container {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttons {
+  flex-direction: column;
+}
+
+/*Removes default blue outline of buttons*/
+button:focus {
+  outline: 0;
+}
+
+/*Common for all buttons*/
+.button {
+  display: flex;
+  background-color: #ff5b24;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-family: SF;
+  color: white;
+  font-size: 18.5px;
+  border: none;
+  margin: 8px;
+  height: 40px;
+}
+
+.regular {
+  width: 210px;
+}
+
+/*Margins for correctly placing svgs inside the ordinary payment buttons*/
+.regular svg {
+  margin-left: 6px;
+  margin-top: 5px;
+}
+
+/*Small payment button styling*/
+.small {
+  width: 140px;
+}
+
+/*Express checkout button styling*/
+.express {
+  margin-bottom: 57px;
+  width: 210px;
+}
+
+.express svg {
+  margin-right: 6px;
+  margin-top: 5px;
+}
+
+/*Small express checkout button styling*/
+.small.express {
+  width: 154px;
+}
+
+.small.express svg {
+  margin-right: 6px;
+  margin-top: 0;
+}
+
+/*Login button styling*/
+.login {
+  width: 218px;
+}
+
+.login svg {
+  margin-left: 6px;
+  margin-top: 5px;
+}
+
+/*Signup button styling*/
+.signup {
+  width: 278px;
+  background-image: url("./assets/imgs/emma.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: right;
+}
+
+.signup svg {
+  margin-left: -50px;
+  margin-right: 12px;
+}
+
+/*Paymark button styling*/
+.paymark {
+  width: 42px;
+  height: 27px;
+}
