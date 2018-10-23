@@ -45,11 +45,12 @@ button:focus {
   height: 40px;
 }
 
+
+/*Regular payment button styling */
 .regular {
   width: 210px;
 }
 
-/*Margins for correctly placing svgs inside the ordinary payment buttons*/
 .regular svg {
   margin-left: 6px;
   margin-top: 5px;
@@ -110,3 +111,45 @@ button:focus {
   width: 42px;
   height: 27px;
 }
+
+/*Extra functionality*/
+#code-container {
+  margin: auto;
+  width: 90vw;
+  height: 45vh;
+  background-color: #1D1E22;
+  color: #C5C8D4;
+  font-family: SF;
+  display: flex;
+  justify-content: space-between;
+}
+
+#html-container {
+  text-align: center;
+  width: 50%;
+  
+}
+
+#css-container {
+  text-align: center;
+  width: 50%;
+}
+
+#css {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(43, 43, 43);
+  border-left: 2px solid rgb(131, 132, 139);
+  margin-left: -2px;
+  
+}
+
+#html {
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(43, 43, 43);
+  overflow: auto;
+}
+
+
