@@ -47,19 +47,3 @@ function escapeHtml(unsafe) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 }
-
-
-/*htmlCode = document.getElementById(html);
-cssCode = document.getElementById(css)
-if (htmlCode.style.display === "none") {
-    cssCode.style.display = "block"
-    htmlCode.style.display = "block";
-    buttonCss.style.display = "block";
-} else if (htmlCode.style.display === "block") {
-    cssCode.style.display = "none"
-    htmlCode.style.display = "none";
-    buttonCss.style.display = "none";
-} else {
-
-}
-*/
