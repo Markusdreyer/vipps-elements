@@ -148,7 +148,7 @@ form {
   height: 45vh;
   background-color: #1D1E22;
   color: #C5C8D4;
-  font-family: SF;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-between;
 }
